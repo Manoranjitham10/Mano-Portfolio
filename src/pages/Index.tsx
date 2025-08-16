@@ -9,6 +9,9 @@ import HackathonsSection from '@/components/HackathonsSection';
 import AchievementsSection from '@/components/AchievementsSection';
 import CertificationsSection from '@/components/CertificationsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import PersonalitySection from '@/components/PersonalitySection';
+import VolunteerSection from '@/components/VolunteerSection';
+import PublicationsSection from '@/components/PublicationsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -18,6 +21,7 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       <AboutSection />
+      <PersonalitySection />
       <SkillsSection />
       <EducationSection />
       <ExperienceSection />
@@ -25,6 +29,8 @@ const Index = () => {
       <HackathonsSection />
       <AchievementsSection />
       <CertificationsSection />
+      <PublicationsSection />
+      <VolunteerSection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />

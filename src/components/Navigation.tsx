@@ -14,6 +14,8 @@ const Navigation = () => {
     { id: 'hackathons', label: 'Hackathons' },
     { id: 'achievements', label: 'Achievements' },
     { id: 'certifications', label: 'Certifications' },
+    { id: 'publications', label: 'Publications' },
+    { id: 'volunteer', label: 'Volunteer' },
     { id: 'contact', label: 'Contact' },
   ];
 
