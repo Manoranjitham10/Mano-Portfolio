@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-hero-gradient opacity-20"></div>
       <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
                 Hi, I'm{' '}
               </span>
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Mano
+                Mano Ranjitham N
               </span>
             </h1>
             
