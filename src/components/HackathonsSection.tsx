@@ -108,48 +108,6 @@ const HackathonsSection = () => {
           </div>
         </div>
 
-        {/* Hackathon Stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="portfolio-card text-center group hover:scale-105 transition-transform duration-300">
-            <div className="flex justify-center mb-4">
-              <div className="p-3 rounded-full bg-yellow-500/10 border border-yellow-500/20">
-                <Trophy size={28} className="text-yellow-400" />
-              </div>
-            </div>
-            <div className="text-2xl font-bold text-yellow-400 mb-2">5+</div>
-            <div className="text-sm text-muted-foreground">Hackathons</div>
-          </div>
-          
-          <div className="portfolio-card text-center group hover:scale-105 transition-transform duration-300">
-            <div className="flex justify-center mb-4">
-              <div className="p-3 rounded-full bg-orange-500/10 border border-orange-500/20">
-                <Medal size={28} className="text-orange-400" />
-              </div>
-            </div>
-            <div className="text-2xl font-bold text-orange-400 mb-2">2</div>
-            <div className="text-sm text-muted-foreground">Top Placements</div>
-          </div>
-          
-          <div className="portfolio-card text-center group hover:scale-105 transition-transform duration-300">
-            <div className="flex justify-center mb-4">
-              <div className="p-3 rounded-full bg-primary/10 border border-primary/20">
-                <Code size={28} className="text-primary" />
-              </div>
-            </div>
-            <div className="text-2xl font-bold text-primary mb-2">3</div>
-            <div className="text-sm text-muted-foreground">Projects Built</div>
-          </div>
-          
-          <div className="portfolio-card text-center group hover:scale-105 transition-transform duration-300">
-            <div className="flex justify-center mb-4">
-              <div className="p-3 rounded-full bg-accent/10 border border-accent/20">
-                <Users size={28} className="text-accent" />
-              </div>
-            </div>
-            <div className="text-2xl font-bold text-accent mb-2">48h</div>
-            <div className="text-sm text-muted-foreground">Avg Duration</div>
-          </div>
-        </div>
 
         {/* Key Skills Developed */}
         <div className="mt-12 portfolio-card">
