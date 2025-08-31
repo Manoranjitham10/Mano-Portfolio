@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    /* Light Theme Base Colors */
+    /* Lavender Theme Base Colors */
     --background: 0 0% 100%;
-    --foreground: 222 84% 4.9%;
+    --foreground: 262 10% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 84% 4.9%;
+    --card-foreground: 262 10% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 84% 4.9%;
+    --popover-foreground: 262 10% 25%;
 
-    /* Professional Primary Blue */
-    --primary: 221 83% 53%;
-    --primary-foreground: 210 40% 98%;
-    --primary-hover: 221 83% 60%;
+    /* Rich Lavender Primary */
+    --primary: 262 52% 47%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 262 52% 55%;
 
-    /* Light Gray Secondary */
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 84% 4.9%;
+    /* Soft Lavender Secondary */
+    --secondary: 262 15% 95%;
+    --secondary-foreground: 262 10% 25%;
 
     /* Muted Elements */
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 262 15% 95%;
+    --muted-foreground: 262 8% 50%;
 
-    /* Professional Teal Accent */
-    --accent: 173 58% 39%;
-    --accent-foreground: 210 40% 98%;
-    --accent-hover: 173 58% 45%;
+    /* Deep Purple Accent */
+    --accent: 280 65% 40%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 280 65% 48%;
 
     /* Status Colors */
     --destructive: 0 84% 60%;
@@ -46,16 +46,16 @@
     --input: 214 32% 91%;
     --ring: 221 83% 53%;
 
-    /* Custom Portfolio Colors */
-    --hero-gradient: linear-gradient(135deg, hsl(221 83% 53% / 0.05) 0%, hsl(173 58% 39% / 0.05) 100%);
-    --section-gradient: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(0 0% 100%) 100%);
-    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    /* Custom Lavender Colors */
+    --hero-gradient: linear-gradient(135deg, hsl(262 52% 47% / 0.08) 0%, hsl(280 65% 40% / 0.08) 100%);
+    --section-gradient: linear-gradient(180deg, hsl(262 15% 98%) 0%, hsl(0 0% 100%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(262 15% 98%) 100%);
     
-    /* Shadows & Effects */
-    --shadow-primary: 0 4px 20px hsl(221 83% 53% / 0.08);
-    --shadow-accent: 0 4px 20px hsl(173 58% 39% / 0.08);
-    --shadow-card: 0 2px 15px hsl(0 0% 0% / 0.05);
-    --shadow-glow: 0 0 40px hsl(221 83% 53% / 0.08);
+    /* Lavender Shadows & Effects */
+    --shadow-primary: 0 4px 20px hsl(262 52% 47% / 0.12);
+    --shadow-accent: 0 4px 20px hsl(280 65% 40% / 0.12);
+    --shadow-card: 0 2px 15px hsl(262 10% 25% / 0.08);
+    --shadow-glow: 0 0 40px hsl(262 52% 47% / 0.15);
 
     /* Typography */
     --font-heading: 'Poppins', sans-serif;

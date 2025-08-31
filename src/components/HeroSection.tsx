@@ -110,7 +110,7 @@ const HeroSection = () => {
           <div className="flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: '0.6s' }}>
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-full blur-lg opacity-25 group-hover:opacity-40 transition-opacity duration-500 animate-pulse"></div>
-              <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-500">
+              <div className="relative w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl group-hover:scale-105 transition-transform duration-500">
                 <img
                   src="/lovable-uploads/67cc23d8-1688-4042-9648-314f59adf40e.png"
                   alt="Mano Ranjitham N - Software Developer"
